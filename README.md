@@ -102,6 +102,8 @@ MSX0の向きを変えたときのアニメーションをやってみたくて�
     - 戻し値：CY,CM,CD,CH,CN,CS,CT$
     - 使用変数：CA,CB:BDOSコール戻り値取得用
 
+## すぺさん
+MSX0のCALL IOTGET()相当の機能の実装は、HRA!さん(https://github.com/hra1129)のX(Twitter)の投稿、DEKOさんの[Turbo Pascal用ライブラリ](https://qiita.com/ht_deko/items/a5c0bf6e7969093beb3c)を参考にさせていただきました。この場を借りてお礼申し上げます。
 
 ## あとがき
 - 図書館司書資格が取得できた記念に作りました。本当は、MSX0を入手した頃からずっと作りたかったのです。
