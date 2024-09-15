@@ -5,18 +5,19 @@ MSX0の向きによって表示が変わる置時計です。
 MSX0 Beginner kitに含まれている温度湿度センサ DHT20 が接続されている場合は、温度と湿度を表示します。  
 MSX0の向きを変えたときのアニメーションをやってみたくて作りました。  
 
-[![](https://img.youtube.com/vi/6NwYBZGyBjk/0.jpg)](https://www.youtube.com/watch?v=6NwYBZGyBjk)
+[![](https://img.youtube.com/vi/fNjlaWerbAA/0.jpg)](https://youtu.be/fNjlaWerbAA)
 
 
 ## 実行環境
 - MSX0
   - 内蔵BDOS（時刻取得のため）
-  - MSXべーしっ君（高速化のため）
+  - 内蔵MSXべーしっ君（高速化のため）
 - Battery Bottom（の加速度センサー）
 - 温度湿度センサ DHT20（必要に応じて）
 
+
 ## 実行方法
-1. CLOCK.DSKをダウンロードし、MSX0のmicroSDカードのDSKフォルダ内に置きます。
+1. [CLOCK.DSK](https://github.com/matsun-ri/msx0clock/raw/main/CLOCK.DSK)をダウンロードし、MSX0のmicroSDカードのDSKフォルダ内に置きます。
 2. MSX0のSetup Utilityにて、上記ディスクイメージを選択します。
 3. MSX0をリセットします。
 4. 自動的に起動します（MSXべーしっ君のコンパイルに数秒を要します）
@@ -50,6 +51,7 @@ MSX0の向きを変えたときのアニメーションをやってみたくて�
 - S$<br>スプライト定義用
 - TM$<br>時刻取得用
 - TS<br>前回取得秒
+
 
 ## プログラムの流れ
 - 初期化処理
@@ -99,6 +101,7 @@ MSX0の向きを変えたときのアニメーションをやってみたくて�
     - 引数：なし
     - 戻し値：CY,CM,CD,CH,CN,CS,CT$
     - 使用変数：CA,CB:BDOSコール戻り値取得用
+
 
 ## あとがき
 - 図書館司書資格が取得できた記念に作りました。本当は、MSX0を入手した頃からずっと作りたかったのです。
