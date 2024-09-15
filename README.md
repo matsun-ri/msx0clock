@@ -1,9 +1,9 @@
 # msx0clock
 
 ## なんぞ
-MSX0の向きによって表示が変わる置時計です。
-MSX0 Beginner kitに含まれている温度湿度センサ DHT20 が接続されている場合は、温度と湿度を表示します。
-MSX0の向きを変えたときのアニメーションをやってみたくて作りました。
+MSX0の向きによって表示が変わる置時計です。  
+MSX0 Beginner kitに含まれている温度湿度センサ DHT20 が接続されている場合は、温度と湿度を表示します。  
+MSX0の向きを変えたときのアニメーションをやってみたくて作りました。  
 
 [![](https://img.youtube.com/vi/6NwYBZGyBjk/0.jpg)](https://www.youtube.com/watch?v=6NwYBZGyBjk)
 
